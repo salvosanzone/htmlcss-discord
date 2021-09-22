@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  height: 80px;
+  background-color: #3161e0;
+  line-height: 80px; /*modifico l'altezza della riga*/
+}
+
+.container {
+  width: 90%;
+  max-width: 1180px;
+  margin: auto;
+}
+
+.logo {
+  float: left;
+  padding-right: 20%;
+}
+.logo-img {
+  vertical-align: middle; /*mi permette di centrare il logo a metà della line-height*/
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.button {
+  float: right;
+}
+
+.accedi-button {
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+
+.jumbotron{
+  height: 500px;
+  padding-top: 50px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+}
+
+.text{
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-bottom: 60px;
+}
+.jumbotron .text h2, p{
+  text-align: center;
+  color: white;
+}
+
+.text p{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.jumbotron .text .big-white-btn{
+  float: left;
+  padding-left: 50px;
+  padding-right: 10px;
+}
+
+.jumbotron .text .big-black-btn{
+  float: left;
+}
+
+.jumbotron .text .big-black-btn a{
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.jumbotron .text .big-white-btn a{
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.main-container{
+height: 300px;
+border: 1px solid black;
+background-color: blueviolet;
+}
