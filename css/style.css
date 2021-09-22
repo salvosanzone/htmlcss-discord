@@ -211,16 +211,33 @@ h3{
 footer{
   height: 500px;
   background-color: #23272a;
+  padding: 50px;
+}
+h4{
+  color: #8ea1e2;
+  font-size: 35px;
+  float: left;
+  margin-right: 5%;
 }
 
 footer ul {
   float: left;
   list-style: none;
+  left: 50px;
 }
 
+footer ul li{
+  padding: 10px;
+}
 
 footer ul li a {
   text-decoration: none;
   color: white;
   padding: 10px;
+  
+}
+
+
+.text-blue{
+ color:#8ea1e2;
 }
