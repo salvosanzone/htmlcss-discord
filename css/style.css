@@ -115,8 +115,37 @@ h2{
   margin-left: 50px;
 }
 
+main{
+background-color: white;
+}
+
 .main-container{
-height: 300px;
-border: 1px solid black;
-background-color: blueviolet;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+.pic{
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text-description{
+  float: left;
+  width: 45%;
+  height: 300px;
+}
+
+h3{
+  font-size: 55px;
+  text-align: center;
+}
+
+
+.p-text-description{
+  color: black;
 }
